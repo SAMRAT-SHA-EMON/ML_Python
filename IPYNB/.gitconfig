@@ -1,8 +1,0 @@
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-[user]
-	name = Saimuddin Samrat Sha Emon
-	email = saimuddinsamrat@gmail.com
